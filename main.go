@@ -5,9 +5,7 @@ import (
 	"fmt"
 )
 
-func init() {
-
-}
+func init() {}
 
 func main() {
 	m1 := matrix.Matrix([][]float64{[]float64{1, 2, 3}, []float64{4, 5, 6}})

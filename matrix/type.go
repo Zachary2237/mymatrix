@@ -22,8 +22,8 @@ type IRowVec interface {
 }
 
 type IMat interface {
-	Add(m2 Matrix) (m3 Matrix, err error)
-	Minus(m2 Matrix) (m3 Matrix, err error)
-	MatMul(m2 Matrix) (m3 Matrix, err error)
-	Transpose() (m2 Matrix)
+	Add(m2 Matrix) (m3 Matrix, err error)    //Matrix Addition
+	Minus(m2 Matrix) (m3 Matrix, err error)  //Matrix addition and subtraction
+	MatMul(m2 Matrix) (m3 Matrix, err error) //Matrix multiplication
+	Transpose() (m2 Matrix)                  //Matrix transpose
 }
